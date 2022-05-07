@@ -112,7 +112,7 @@ filterBtns.forEach((btn)=>{
 
 });
 
-               //bug was here, I wrote menu instead of menuItems
+               //bug was here, I wrote menu.map instead of menuItems.map
 function displayMenuItems(menuItems){
      let displayMenu = menuItems.map((item)=>{
       return `<article class="menu-item">
